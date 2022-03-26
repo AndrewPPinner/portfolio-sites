@@ -1,0 +1,81 @@
+
+img {
+    height: 200px;
+    width: auto;
+    border: 1px solid white;
+}
+
+#header {
+    padding-top: 10px;
+    grid-area: h2;
+}
+
+#header h2 {
+    text-decoration: underline;
+}
+
+#lecture{
+    grid-area: lec;
+}
+
+#inventory {
+    grid-area: inventory;
+}
+
+#bot {
+    grid-area: bot;
+}
+
+#app {
+    grid-area: app;
+}
+
+#app img {
+    width: 408px;
+}
+
+#guide {
+    grid-area: guide;
+}
+
+#nasa {
+    grid-area: nasa;
+}
+
+#meal {
+    grid-area: meal;
+}
+
+#api {
+    grid-area: api;
+}
+
+.btn {
+    margin-top: 5px;
+}
+
+#new {
+    grid-area: new;
+    height: 284px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#new .btn {
+    justify-content: flex-end;
+}
+
+#projects {
+    align-items:flex-end;
+    display: grid;
+    text-align: center;
+    gap: 25px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "h2 h2 h2"
+    "lec inventory bot"
+    "app guide nasa"
+    "meal api new"
+    ;
+}

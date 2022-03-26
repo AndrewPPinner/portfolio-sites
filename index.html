@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://unpkg.com/vue@3.0.2"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body class="p-3 mb-2 bg-dark text-white">
+  <div id="app">
+      <ul class="nav nav-tabs">
+          <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="">Home</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Contact</a>
+        </li>
+      </ul>
+    <div id="app">
+      <h1>A little about me</h1>
+      <section id="about">
+        <p>I am a collaborative, self-motivated, and detail-oriented professional, excited to apply problem-solving and analytical skills to a developer position that will fulfill my strive for learning. 
+          I am looking for a role where I can not only expand my knowledge and grow professionally but a role where I can work with others, be challenged in an ever-changing environment, take responsibility and ownership of the work I am a part of, and be proud of the work that I have done.</p>  
+        <p>After finding out about programming through a YouTube video and getting my first Arduino project to compile, I was hooked. I fell in love with being able to build something from scratch with some careful planning and problem-solving. Over the course of a few months, I learned everything I could from anywhere I could about programming. I realized that my passion for tinkering on cars and small electronics as well as my natural ability to learn on the fly, absorb information quickly, solve complex problems, and simplify complex projects was very useful in programming. After teaching myself how to build and publish numerous websites and servers, as well as a few mobile apps I decided to enroll in Tech Elevator to turn my passion into a rewarding career.</p>
+        <p>Elevator has taught me a multitude of skills and has only furthered my passion for software development and fast pace learning. Tech Elevator's focus on technical and collaborative skills gives me the ideal starting point for a career in full-stack and backend development. I am excited to channel my passion and excitement for coding into a rewarding career, and I hope to find a role that can support my drive for success.</p></p>
+      </section>
+      <section id="projects">
+          <div id="header">
+            <h2>Recent Projects</h2>
+            <p>Click on the images to be redirected to the live version of the project</p>
+          </div>
+        
+          <div id="lecture">
+            <h3>Lecture Betting Site</h3>
+            <a target="_blank" href="https://andrew-pinner.asuscomm.com/audio_text/"><img src="img/lecture.jpg"></a><br>
+            <a target="_blank" href="https://github.com/AndrewPPinner/AudioToText"><button class="btn btn-success">GitHub Repo</button></a>
+          </div>
+
+          <div id="inventory">
+            <h3>Local Electronics Store Inventory Checker</h3>
+            <a target="_blank" href="https://gpu-scraper.herokuapp.com/"><img src="img/inventory.jpg"></a><br>
+            <a target="_blank" href="https://github.com/AndrewPPinner/GPUScrape"><button class="btn btn-success">GitHub Repo</button></a>
+          </div>
+
+          <div id="bot">
+            <h3>Electronics Purchasing Bot</h3>
+            <a target="_blank" href="https://andrew-pinner.asuscomm.com/"><img src="img/bot.jpg"></a><br>
+            <a target="_blank" href="https://github.com/AndrewPPinner/BotSite"><button class="btn btn-success">GitHub Repo</button></a>
+          </div>
+
+          <div id="app">
+            <h3>Morning Brew Mobile App</h3>
+            <img src="img/app.jpg"><br>
+            <a target="_blank" href="https://github.com/AndrewPPinner/morningbrew"><button class="btn btn-success">GitHub Repo</button></a>
+          </div>
+
+          <div id="guide">
+            <h3>Video Game Guide Site(Depreciated)</h3>
+            <a target="_blank" href="https://andrew-pinner.asuscomm.com/tarkov/"><img src="img/guide.jpg"></a><br>
+            <a target="_blank" href="https://github.com/AndrewPPinner/TarkovSite"><button class="btn btn-success">GitHub Repo</button></a>
+          </div>
+
+          <div id="nasa">
+            <h3>NASA Daily Image API</h3>
+            <a target="_blank" href="https://andrewppinner.github.io/NasaAPI/"><img src="img/nasa.jpg"></a><br>
+            <a target="_blank" href="https://github.com/AndrewPPinner/NasaAPI"><button class="btn btn-success">GitHub Repo</button></a>
+          </div>
+
+          <div id="meal">
+            <h3>Meal Idea Generator</h3>
+            <a target="_blank" href="https://andrewppinner.github.io/FoodRecipe/"><img src="img/meal.jpg"></a><br>
+            <a target="_blank" href="https://github.com/AndrewPPinner/FoodRecipe"><button class="btn btn-success">GitHub Repo</button></a>
+          </div>
+
+          <div id="api">
+            <h3>RESTful Weather API</h3>
+            <a target="_blank" href="https://andrew-pinner.asuscomm.com/weather?loc=44260"><img src="img/api.jpg"></a> <br>
+            <a target="_blank" href="https://github.com/AndrewPPinner/restAPI"><button class="btn btn-success">GitHub Repo</button></a>
+          </div>
+
+          <div id="new">
+            <h3>Work in Progress</h3>
+            <p>I am always working on something new. Feel free to check out my GitHub to see what I have been up to, or reach out with the contact link above.</p>
+            <a target="_blank" href="https://github.com/AndrewPPinner/"><button class="btn btn-success">GitHub Repo</button></a>
+          </div>
+
+      </section>
+    </div>  
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
